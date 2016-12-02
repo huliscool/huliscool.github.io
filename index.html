@@ -1,19 +1,36 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
 <head>
 <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'/>
     <style>
       body {
-        font-family: &#39;Capriola&#39;, sans-serif;background-image:
+        font-family: &#39;Capriola&#39;, sans-serif;background-image:url(http://4.bp.blogspot.com/-WbBPZXNmp7k/Vq1NPDGaRYI/AAAAAAAANjQ/7OTJ6jzZsWA/s1600/1558554.jpg), url(http://4.bp.blogspot.com/-WbBPZXNmp7k/Vq1NPDGaRYI/AAAAAAAANjQ/7OTJ6jzZsWA/s1600/1558554.jpg)
         ;
       }
     </style>
   <meta content='#006400' name='theme-color'/>  
 <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> 
- 
-   <meta name="viewport" content="width=device-width, initial-scale=1"> 
-
+  <b:if cond='data:blog.isMobile'> 
+   <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> 
+  <b:else/> 
+   <meta content='width=1100' name='viewport'/> 
+  </b:if> 
+  <b:include data='blog' name='all-head-content'/>
   <title>shonen pollo THIRD WORLD MENTALITY</title>
+  <b:skin><![CDATA[
+   /* 
+    body { 
+     font: $(body.font); 
+     color: $(body.text.color); 
+     background: $(body.background); 
+     padding: 0 $(content.shadow.spread) $(content.shadow.spread) $(content.shadow.spread); 
+     $(body.background.override) margin: 0; 
+     padding: 0; 
+    }
+   
+  ]]></b:skin>
+
 
  </head>
  <body>
